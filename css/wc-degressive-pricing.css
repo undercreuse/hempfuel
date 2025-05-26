@@ -1,0 +1,84 @@
+/* Tableau des prix dégressifs */
+.degressive-price-table {
+    margin-bottom: 30px;
+}
+
+.degressive-price-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.degressive-price-table th,
+.degressive-price-table td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.degressive-price-table th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+}
+
+.degressive-price-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Formulaire produit dégressif */
+.degressive-product-form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.degressive-qty-wrapper {
+    margin-bottom: 15px;
+}
+
+.degressive-qty-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#degressive-qty {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.degressive-price-display {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.degressive-price-display .unit-price {
+    font-size: 14px;
+    color: #666;
+}
+
+.degressive-price-display .error {
+    color: #e2401c;
+}
+
+/* Admin */
+.woocommerce_options_panel .options_group.show_if_degressive {
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .degressive-price-table {
+        overflow-x: auto;
+    }
+    
+    .degressive-price-table table {
+        min-width: 300px;
+    }
+}
